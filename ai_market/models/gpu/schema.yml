@@ -19,3 +19,18 @@ models:
         data_tests:
           - unique
           - not_null
+          
+  - name: stg_gpu_prices
+    description: "Cleaned and prepared GPU price data"
+    columns:
+      - name: gpu_model
+        data_tests:
+          - not_null
+
+      - name: price
+        data_tests:
+          - not_null 
+          
+      - name: collection_date
+        data_tests:
+          - not_null
