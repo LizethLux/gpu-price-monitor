@@ -1,0 +1,5 @@
+.env
+.venv/
+__pycache__/
+gpu_prices_backup.csv
+logs/
